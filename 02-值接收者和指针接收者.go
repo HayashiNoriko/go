@@ -1,3 +1,4 @@
+// 普通情况下，值接收者和指针接受者的灵活转换
 package main
 
 import (
