@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	f := Fish{}   // 值
+	// f := Fish{}   // 值 declared and not used
 	fp := &Fish{} // 指针
 
 	// var m Mover = f // m 为值的形式，错误，因为 Fish 没有实现 Move2，实现接口失败
