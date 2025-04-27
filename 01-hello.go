@@ -1,3 +1,4 @@
+// go 基本语法
 package main
 
 import (
