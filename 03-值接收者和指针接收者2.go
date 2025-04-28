@@ -6,7 +6,7 @@ import (
 	"fmt"
 )
 
-func main() {
+func main3() {
 	// f := Fish{}   // 值 declared and not used
 	fp := &Fish{} // 指针
 
