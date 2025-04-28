@@ -8,7 +8,7 @@ import (
 	"fmt"
 )
 
-func main4() {
+func main() {
 	// 1、一个类型可以同时满足多个接口
 	var m1d Man1 = Doctor{}
 	m1d.work()
