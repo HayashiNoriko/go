@@ -1,6 +1,6 @@
 package main
 
-// go run 01-go\ tool\ trace.go
+// go run 01-go_tool_trace.go
 // go tool trace trace.out
 
 import (
@@ -9,7 +9,7 @@ import (
 	"runtime/trace"
 )
 
-func main() {
+func main1() {
 	// 创建 trace 文件
 	f, err := os.Create("trace.out")
 	if err != nil {
