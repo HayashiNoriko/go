@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main1() {
+func main() {
 	var s1 struct{}
 	var s2 [0]int
 	var s3 [100]struct{}
@@ -24,7 +24,7 @@ func main1() {
 
 	// nil 切片 => 未初始化，底层指针为 0。语义上类似“无”的，但可安全调用部分操作（如 append）
 	// 【有自己独立的指针地址】
-	// append 后，就不为 nil 了
+	// append 后，就不为 nil 了，它被升级为一个真正的切片
 	var s6 []int
 	fmt.Printf("%p\n", &s6)
 	fmt.Printf("%t\n", s6 == nil) // true
