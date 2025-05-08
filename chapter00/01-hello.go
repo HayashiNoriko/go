@@ -9,7 +9,7 @@ import (
 	"time"
 )
 
-func main1() {
+func main() {
 
 	// 1、变量声明。必须使用，否则报错
 	var a int = 666 // 显示类型
