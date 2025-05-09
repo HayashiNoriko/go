@@ -5,7 +5,7 @@ import (
 	"reflect"
 )
 
-func main() {
+func main6() {
 	var num float64 = 1.2345
 
 	// 1. reflect.ValueOf() 和 reflect.TypeOf() 的使用
@@ -22,10 +22,10 @@ func main() {
 	convertValue := num_value.Interface().(float64)
 	fmt.Println("convertPointer:", convertPointer) // convertPointer: 0xc000104020
 	fmt.Println("convertValue:", convertValue)     // convertValue: 1.2345
-	// 2.2. 未知原类型的情况
+	// 2.2. 未知原类型，且原类型为 struct 的情况
 	// 见下节
 
-	// 3. 通过 reflect.Value 设置实际变量的值
+	// 3. 通过 reflect.Value 设置实际变量的值（适用于不知道原类型的情况，因为如果知道原类型，那就用 2.1的方法，类型断言，就可以了）
 	// Elem() 的调用者……？
 
 	// 3.1 为值
