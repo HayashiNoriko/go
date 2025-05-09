@@ -22,7 +22,7 @@ func (u User2) ReflectCallFuncNoArgs() {
 // 如何通过反射来进行方法的调用？
 // 首先要将方法注册，也就是MethodByName，然后通过反射调动 m.Call
 
-func main() {
+func main8() {
 	unknown := User2{1001, "Tom", 23}
 
 	// 假设unknown 是外部接受的一个未知类型的对象
