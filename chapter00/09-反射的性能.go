@@ -10,7 +10,7 @@ type Duck struct {
 	Age  int
 }
 
-func main() {
+func main9() {
 	obj := Duck{"Jenny", 10}
 
 	typ := reflect.TypeOf(obj)

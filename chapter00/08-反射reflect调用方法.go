@@ -32,7 +32,6 @@ func main8() {
 	// 2. 获取类型信息
 	typ := val.Type()
 	fmt.Printf("对象类型：%s\n", typ.Name())
-
 	// 3. 遍历所有方法
 	for i := 0; i < val.NumMethod(); i++ {
 		method := typ.Method(i)
