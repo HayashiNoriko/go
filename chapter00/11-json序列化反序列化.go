@@ -11,7 +11,7 @@ type Man struct {
 	Province string
 }
 
-func main() {
+func main11() {
 	// 1.反序列化（json => 结构体）
 	// json字符串
 	jsonStr := `{"name":"zhangsan","age":18,"province":"山东"}`
