@@ -5,7 +5,7 @@ import (
 	// "time"
 )
 
-func fibonacci13(c, quit chan int) {
+func fibonacci(c, quit chan int) {
 	x, y := 1, 1
 	for {
 		select {
@@ -23,7 +23,7 @@ func fibonacci13(c, quit chan int) {
 	}
 }
 
-func main() {
+func main13() {
 	c := make(chan int)
 	quit := make(chan int)
 
