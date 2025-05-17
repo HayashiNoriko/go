@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-func main() {
+func main12() {
 	http.HandleFunc("/", sayHello)
 	err := http.ListenAndServe(":8080", nil)
 	if err != nil {
