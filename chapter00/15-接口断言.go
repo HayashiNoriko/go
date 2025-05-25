@@ -14,7 +14,7 @@ func (b *Book) GetName() string {
 	return b.Name
 }
 
-func main() {
+func main15() {
 	var mybook IBook = &Book{Name: "三国演义"}
 
 	// 两种获取书名的办法
