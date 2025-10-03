@@ -1,6 +1,6 @@
 package main
 
-// goroutine 协程池定义
+// goroutine 协程池/线程池定义 --- 无返回值版本
 
 import (
 	"fmt"
